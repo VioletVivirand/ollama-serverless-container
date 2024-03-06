@@ -14,7 +14,7 @@ Ollama is a super easy tool to run LLM/GenAI model locally, with [elegant instal
 
 Regular installation will put a executable binary file into system, but we can also run Ollama as Docker Container. It's a two-step process:
 
-1. Execute `docker run -itd --name ollama ollama/ollama` to launch Ollama backend, the [default Entrypoint is `/bin/ollama` and Command is `serve`]([url](https://github.com/ollama/ollama/blob/ce9f7c467481e4d636de5c5befb0a09da06b3614/Dockerfile#L137-138)), which means it executes [`ollama serve`]([url](https://github.com/ollama/ollama?tab=readme-ov-file#start-ollama)) to be ready to accept incoming requests
+1. Execute `docker run -itd --name ollama ollama/ollama` to launch Ollama backend, the [default Entrypoint is `/bin/ollama` and Command is `serve`](https://github.com/ollama/ollama/blob/ce9f7c467481e4d636de5c5befb0a09da06b3614/Dockerfile#L137-138), which means it executes [`ollama serve`]([url](https://github.com/ollama/ollama?tab=readme-ov-file#start-ollama)) to be ready to accept incoming requests
 2. Execute `docker exec -it ollama ollama run <Model Name:Version>` to enter the interactive interface and start to inject prompts
 
 Sounds good, but not enough. If we gonna host with some cloud services and turn Ollama into a serverless, it should
