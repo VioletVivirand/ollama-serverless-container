@@ -1,4 +1,4 @@
-# Inference with Gemma via Ollama
+# Ollama Serverless Container
 
 Tested with [Ollama Official Image v0.1.27](https://hub.docker.com/layers/ollama/ollama/0.1.27/images/sha256-04d6cc972388b6c014105fbca10f0c25a17e8c12bd7f528ef0db7f8d114d585a?context=explore).
 
